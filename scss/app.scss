@@ -3,6 +3,7 @@
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
+@import 'motion-ui';
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -48,3 +49,55 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+body {
+  background-color: #e6e6e6;
+  background-color: #f5f5f5;
+}
+
+hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 0;
+  border-top: 1px solid rgba(10, 10, 10, 0.25);
+}
+
+#main-menu, #main-menu ul {
+  background-color: #262d36; }
+  #main-menu a, #main-menu ul a {
+    color: rgba(255, 255, 255, 0.7); }
+
+.callout-main {
+  background: transparent;
+  border: none; }
+  .callout-main h1, .callout-main h2 {
+    font-weight: 700; }
+  .callout-main.alt {
+    color: rgba(255, 255, 255, 0.3); }
+
+.content-main .lounge-posts {
+  padding: 1rem;
+  background-color: white; }
+
+.media-object-image {
+  padding: 0 0 1rem; }
+  .media-object-image img {
+    width: 100%; }
+
+.cover-image-container {
+  height: 480px;
+  width: 100%;
+  margin: 0 0 1rem;
+}
+
+.cover-image {
+  background-image: url("../static/images/old-451.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 50% 50%;
+  border-bottom: 1px solid #dce0e0;
+  height: 100%;
+}
