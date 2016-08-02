@@ -6,10 +6,15 @@
       </div>
     </div>
   </section>
-  <section class="callout callout-main">
-    <div class="row column">
-      <h2>the name of the property here and stuff nice and long</h2>
-      <p class="lead">Portland, Maine, United States</p>
+  <div id="content-container">
+  <section class="row" id="property-info">
+    <div class="callout callout-main" data-sticky-container>
+      <div class="sticky property-title" data-sticky="" data-anchor="content-container" data-options="marginTop:0;" style="width:100%">
+        <div class="row small-12 medium-9 columns">
+          <h2>the name of the property here and stuff nice and long</h2>
+          <p class="lead">Portland, Maine, United States</p>
+        </div>
+      </div>
     </div>
   </section>
   <section class="row" id="content">
@@ -103,6 +108,7 @@
       </article>
     </div>
     <div class="small-12 medium-3 columns" data-sticky-container>
+      <div class="sticky" data-anchor="content" data-sticky="" data-options="marginTop:10;">
         <div class="panel small">
           <div class="row">
             <div class="small-4 columns">
@@ -115,6 +121,7 @@
               <p><a class="secondary small button" href="#">View Profile</a></p>
             </div>
         </div>
+      </div>
 
         <div class="panel small">
           <h4>Property Details</h4>
@@ -147,8 +154,10 @@
           <p>Follow the link, and request references from friends, family, or colleges.</p>
           <p><a class="secondary small button" href="#">Request a Reference</a></p>
         </div>
+      </div>
     </div>
   </section>
+  </div>
   <script src="bower_components/jquery/dist/jquery.js"></script>
   <script src="bower_components/what-input/what-input.js"></script>
   <script src="bower_components/foundation-sites/dist/foundation.js"></script>

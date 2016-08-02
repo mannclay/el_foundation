@@ -90,6 +90,16 @@ hr {
   margin: 0 0 1rem;
 }
 
+.property-title.stuck {
+  margin: 0;
+  max-width: 100%;
+  background-color: #353535;
+    h2 {
+      font-size: 1rem;
+      color: #efefef;
+    }
+}
+
 .cover-image {
   background-image: url("../static/images/old-451.jpg");
   background-repeat: no-repeat;
