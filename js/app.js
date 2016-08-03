@@ -6,4 +6,4 @@ $(".sticky.property-title").on('sticky.zf.stuckto:top', function(){
 }).on('sticky.zf.unstuckfrom:top', function(){
   console.log("not sticks");
   $(".property-title").removeClass('stuck');
-})
+});
