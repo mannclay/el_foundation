@@ -90,13 +90,26 @@ hr {
   margin: 0 0 1rem;
 }
 
+.property-title {
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
 .property-title.stuck {
+  opacity: 1;
   margin: 0;
   max-width: 100%;
   background-color: #353535;
   h2, p {
-    font-size: 1rem;
     color: #efefef;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+  p {
+    font-size: 1rem;
   }
 }
 
@@ -110,4 +123,9 @@ hr {
   background-position: 50% 50%;
   border-bottom: 1px solid #dce0e0;
   height: 100%;
+}
+
+.medium-3 .sticky {
+  z-index: 1100;
+
 }

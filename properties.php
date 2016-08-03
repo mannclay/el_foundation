@@ -7,7 +7,7 @@
     </div>
   </section>
   <div id="content-container">
-  <section class="row" id="property-info">
+  <section class="" id="property-info">
     <div class="callout callout-main" data-sticky-container>
       <div class="sticky property-title" data-sticky="" data-anchor="content-container" data-options="marginTop:0;" style="width:100%">
         <div class="row small-12 medium-9 columns">
