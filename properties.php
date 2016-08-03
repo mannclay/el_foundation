@@ -106,6 +106,28 @@
             </div>
           </section>
         </article>
+      <article class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+        <ul class="orbit-container">
+          <li class="is-active orbit-slide">
+            <img class="orbit-image" src="static/images/orbit/01.jpg" alt="Space">
+          </li>
+          <li class="orbit-slide">
+            <img class="orbit-image" src="static/images/orbit/02.jpg" alt="Space">
+          </li>
+          <li class="orbit-slide">
+            <img class="orbit-image" src="static/images/orbit/03.jpg" alt="Space">
+          </li>
+          <li class="orbit-slide">
+            <img class="orbit-image" src="static/images/orbit/04.jpg" alt="Space">
+          </li>
+        </ul>
+        <nav class="orbit-bullets">
+          <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+          <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+          <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+          <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+        </nav>
+      </article>
       </div>
       <div class="small-12 medium-3 columns" data-sticky-container>
         <div class="sticky" data-anchor="content" data-sticky="" data-options="marginTop:10;">
@@ -155,30 +177,6 @@
             <p><a class="secondary small button" href="#">Request a Reference</a></p>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="row" id="content">
-      <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
-        <ul class="orbit-container">
-          <li class="is-active orbit-slide">
-            <img class="orbit-image" src="static/images/orbit/01.jpg" alt="Space">
-          </li>
-          <li class="orbit-slide">
-            <img class="orbit-image" src="static/images/orbit/02.jpg" alt="Space">
-          </li>
-          <li class="orbit-slide">
-            <img class="orbit-image" src="static/images/orbit/03.jpg" alt="Space">
-          </li>
-          <li class="orbit-slide">
-            <img class="orbit-image" src="static/images/orbit/04.jpg" alt="Space">
-          </li>
-        </ul>
-        <nav class="orbit-bullets">
-          <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
-          <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-          <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-          <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
-        </nav>
       </div>
     </section>
   </div> <!-- content-container -->
